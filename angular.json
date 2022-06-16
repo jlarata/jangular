@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/jangular/",
             "outputPath": "dist/jangular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "82226086-6844-4520-8f20-f5081eb4bb98"
   }
 }
